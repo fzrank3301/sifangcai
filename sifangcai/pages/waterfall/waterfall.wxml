@@ -1,0 +1,32 @@
+<view class="list">
+  <view class='list-half'>
+    <view wx:for="{{foodlistData.list}}" wx:key="index"  class='card'>
+    <image class="avatar" data-src="{{item.coverimg}}" src="{{item.coverimg}}"  wx:if="{{index%2 == 0}}" mode="widthFix" catchtap="jup" ></image>
+    <text class="tex" wx:if="{{index%2 == 0}}">{{item.name}}</text>
+    </view>
+  </view>
+  <view class='list-half'>
+    <view wx:for="{{foodlistData.list}}" wx:key="index"  class='card'>
+    <image class="avatar" data-src="{{item.coverimg}}" src="{{item.coverimg}}" wx:if="{{index%2 != 0}}" mode="widthFix"  catchtap="jup" ></image>
+    <text class="tex" wx:if="{{index%2 != 0}}">{{item.name}}</text>
+    </view>
+  </view>
+</view>
+
+
+
+
+<!-- <view class="list">
+  <view class='list-half'>
+    <view wx:for="{{listData}}" wx:key="index"  class='card'>
+    <image class="avatar" data-src="{{item.src}}" src="{{item.src}}"  wx:if="{{index%2 == 0}}" mode="widthFix" catchtap="jup" ></image>
+    <text class="tex" wx:if="{{index%2 == 0}}">{{item.title}}</text>
+    </view>
+  </view>
+  <view class='list-half'>
+    <view wx:for="{{listData}}" wx:key="index"  class='card'>
+    <image class="avatar" data-src="{{item.src}}" src="{{item.src}}" wx:if="{{index%2 != 0}}" mode="widthFix"  catchtap="jup" ></image>
+    <text class="tex" wx:if="{{index%2 != 0}}">{{item.title}}</text>
+    </view>
+  </view>
+</view> -->

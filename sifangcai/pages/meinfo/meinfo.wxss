@@ -1,0 +1,20 @@
+
+
+.top{
+  display: flex;
+  flex-direction: column;
+}
+
+.bordername{
+  font-weight: bold;
+}
+
+.nullnot{
+  width: 100%;
+  height: 40px;
+}
+
+.nullnot1{
+  width: 100%;
+  height: 20px;
+}

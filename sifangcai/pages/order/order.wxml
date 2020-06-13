@@ -1,0 +1,24 @@
+
+<view  wx:for="{{ list }}">
+
+<van-card
+  num="2"
+  tag="8折"
+  price="10.00"
+  desc="端午促销"
+  title="今日特价"
+  thumb="{{ item.img }}"
+>
+</van-card>
+
+<view class="vi"></view>
+
+</view>
+
+
+
+<van-submit-bar
+  price="{{ 3050 }}"
+  button-text="提交订单"
+  bind:submit="onSubmit"
+/>

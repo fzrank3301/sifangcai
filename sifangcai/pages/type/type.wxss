@@ -1,0 +1,29 @@
+/* pages/type/type.wxss */
+.hottype{
+  margin-left: 10px;
+  padding: none;
+  margin-bottom: 0px;
+  font-size: 16px ;
+  font-weight: bold;
+}
+
+.van-view{
+  display: flex;
+  flex-direction: column;
+}
+
+.img{
+  height: 90px;
+  width: 90px;
+}
+
+.van-t{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+
+
+

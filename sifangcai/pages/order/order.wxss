@@ -1,0 +1,5 @@
+/* pages/order/order.wxss */
+.vi{
+  height: 5px;
+  width: 100%;
+}

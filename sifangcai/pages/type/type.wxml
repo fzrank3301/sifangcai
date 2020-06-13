@@ -1,0 +1,21 @@
+
+<view class="hottype">热门分类</view>
+<van-grid column-num="4" border="{{ false }}">
+  <van-grid-item use-slot wx:for="{{ listdata }}" wx:for-item="vit">
+    <image class="img"
+      src="{{ vit.pic }}"
+    />
+    <text class="van-t">{{ vit.title }}</text>
+  </van-grid-item>
+</van-grid>
+
+
+<view class="hottype">菜式</view>
+<van-grid column-num="4" border="{{ false }}">
+  <van-grid-item use-slot wx:for="{{ foodtype }}" wx:for-item="viit">
+    <image class="img"
+     src="{{viit.pic}}"
+    />
+    <text class="van-t">{{ viit.title }}</text>
+  </van-grid-item> 
+</van-grid>

@@ -1,0 +1,30 @@
+
+.list {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+ 
+.list .list-half {
+  width: 346rpx;
+  box-sizing: border-box;
+}
+.list-half .card {
+  background-color: #fff;
+  border-radius: 20rpx;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+  padding-bottom: 15rpx;
+}
+
+.avatar{
+  width: 100%;
+}
+
+.tex{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  vertical-align: middle;
+}

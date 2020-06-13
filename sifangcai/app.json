@@ -1,0 +1,46 @@
+{
+  "tabBar": {
+    "selectedColor": "#1989FA",
+    "list": [
+      {
+        "pagePath": "pages/waterfall/waterfall",
+        "text": "广场",
+        "iconPath": "images/waterfall.png",
+        "selectedIconPath": "images/waterfall_s.png"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "text": "分类",
+        "iconPath": "images/type.png",
+        "selectedIconPath": "images/type_s.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order_s.png"
+      },
+      {
+        "pagePath": "pages/meinfo/meinfo",
+        "text": "我的",
+        "iconPath": "images/meinfo.png",
+        "selectedIconPath": "images/meinfo_s.png"
+      }
+    ]
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/waterfall/waterfall",
+    "pages/type/type",
+    "pages/meinfo/meinfo",
+    "pages/order/order",
+    "pages/context/context"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

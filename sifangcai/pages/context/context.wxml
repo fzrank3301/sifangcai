@@ -1,0 +1,49 @@
+<!--pages/context/context.wxml-->
+
+<view class="top">
+  <image class="top-pic" src="{{msinfo.coverimg}}"></image>
+</view>
+
+<view class="space-ten"></view>
+
+<van-row>
+  <van-col class="title-text" span="10" offset="8">脆爽凉拌土豆丝</van-col>
+</van-row>
+
+<van-divider hidden="true" />
+
+<view class="space-ten"></view>
+
+<van-row>
+
+  <van-col offset="1" span="4">
+    <van-image round width="3rem" height="3rem" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+  </van-col>
+
+  <van-col span="6">大姚的厨房</van-col>
+  <van-col span="5" offset="8">
+    <van-button plain size="small" round type="primary">关注</van-button>
+  </van-col>
+</van-row>
+
+<view class="space-ten"></view>
+
+
+<view class="steplist" wx:for="{{msinfo.step}}" wx:for-index="msindex" wx:for-item="msstep">
+
+  <view class="step-head">步骤{{ msindex+1 }}</view>
+  <image class="step-img" src="{{msstep.img}}"></image>
+  <view class="step-text">{{msstep.text}}</view>
+  <van-divider />
+
+
+
+  <!-- <view class="step-head">步骤一</view>
+<image class="step-img" src="/images/tudousi/tudousi1.jpg"></image>
+<view class="step-text">将土豆切丝，青椒切丝，干红辣椒切小段</view>
+<van-divider  /> -->
+
+
+
+
+</view>

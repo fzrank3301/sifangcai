@@ -1,0 +1,43 @@
+<!--pages/meinfo/meinfo.wxml-->
+
+<van-row>
+  <van-col class="username" span="11" offset='2' >
+    <view class="bordername">微信用户123456</view>
+    <view>普通会员</view>
+  </van-col>
+
+  <van-col offset="2" span="8">
+    <van-image round width="7rem" height="7rem" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+  </van-col>
+
+</van-row>
+
+<view class="nullnot"></view>
+
+<van-notice-bar
+  mode="closeable"
+  text="美食天下是最大的中文美食网站与厨艺交流社区,拥有海量的优质原创美食菜谱,聚集超千万美食家。我所有的朋友都是吃货,欢迎您加入!"
+/>
+
+<view class="nullnot1"></view>
+
+
+<van-cell-group>
+<van-cell title="我的钱包" is-link />
+<van-cell title="我的订单" is-link />
+<van-cell title="我的地址" is-link />
+<van-cell title="历史记录" is-link />
+</van-cell-group>
+
+
+<van-cell-group title="高级设置">
+  <van-cell title="通用" is-link />
+  <van-cell title="账号与安全" is-link />
+</van-cell-group>
+
+
+<view class="nullnot1"></view>
+
+<van-cell-group title="其他">
+<van-cell title="关于我们" is-link />
+</van-cell-group>
